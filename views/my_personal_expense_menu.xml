@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Top menu item -->
+    <menuitem
+        id="menu_my_personal_expense_root"
+        name="My_Personal_Expense"
+        
+        />
+
+    <menuitem id="menu_my_personal_expense_reporting"
+        name="Reporting"
+        parent="menu_my_personal_expense_root"
+        />
+
+    <menuitem id="menu_my_personal_expense_configuration"
+        name="Configuration"
+        parent="menu_my_personal_expense_root"
+        />
+
+</odoo>
